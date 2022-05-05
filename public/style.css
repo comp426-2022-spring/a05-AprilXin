@@ -1,9 +1,18 @@
-div.hidden {
+div.inactive {
   display: none;
 }
 
 div.active {
-  border: 5px solid red;
+  font-family: Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  padding: auto;
+  margin: 50px;
+  text-align: center;
 }
 
 img.bigcoin {
